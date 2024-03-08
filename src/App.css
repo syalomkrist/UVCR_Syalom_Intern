@@ -1,0 +1,201 @@
+body, h1, h2, h3, h4, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #293845;
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  max-width: 800px;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.col {
+  flex: 1;
+}
+
+.tugasBg {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+  position: relative;
+  display: flex;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tugasBg:hover {
+  background-color: #f0f2f5;
+  transform: translateY(-5px);
+}
+
+.tugasBg div {
+  display: block;
+}
+
+.tugasText{ 
+    font-size: 20px;
+    display: block;
+    margin-left: 48px;
+}
+
+.tugasBg .tugasText{ 
+  flex: 1;
+}
+
+.tugasDescription {
+  font-size: 15px;
+  display: block;
+  margin-left: 48px;
+}
+
+.tugasNumber {
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  font-size: 20px;
+}
+
+.tugasBg .done .tugasText {
+  color: #28a745;
+}
+
+.tugasBg .done .tugasDescription {
+  color: #28a745;
+}
+
+.tugasBg .done .tugasNumber {
+  color: #28a745;
+}
+
+.tugasNumber {
+  color: #777;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+.iconsWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+}
+
+.tugasBg .iconsWrap span {
+  margin: 0 8px;
+  cursor: pointer;
+  color: #777;
+  transition: color 0.3s;
+}
+
+.tugasBg .iconsWrap span:nth-child(1):hover {
+  color: #00ff89;
+}
+
+.tugasBg .iconsWrap span:nth-child(2):hover {
+  color: #ffdd33;
+}
+
+.tugasBg .iconsWrap span:nth-child(3):hover {
+  color: #ff6347;
+}
+
+.tugasBg .iconsWrap span:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #121212;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.col-auto button {
+  margin-right: 10px;
+}
