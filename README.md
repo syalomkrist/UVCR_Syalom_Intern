@@ -39,6 +39,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+#HASIL
+List Tugas
+![list 1](https://github.com/syalomkrist/UVCR_Syalom_Intern/assets/119131618/a520a094-d0b1-4854-8f73-80780050558f)
+
+Tambah Data Tugas
+![list 2](https://github.com/syalomkrist/UVCR_Syalom_Intern/assets/119131618/ce010130-b4cc-471f-9735-f0fa983457be)
+
+Hasil Tambah Data Tugas
+![list 3](https://github.com/syalomkrist/UVCR_Syalom_Intern/assets/119131618/7739b221-b4f7-4be8-8734-a0a5cbe89418)
+
+Edit Data Tugas
+![list 4](https://github.com/syalomkrist/UVCR_Syalom_Intern/assets/119131618/2b875404-748c-4116-ae06-455264848eb3)
+
+Edit Data dengan Data Baru
+![list 5](https://github.com/syalomkrist/UVCR_Syalom_Intern/assets/119131618/b5b3d271-fefc-4fb3-901a-2a5ac365b9e9)
+
+Hasil Data setelah di edit
+![list 6](https://github.com/syalomkrist/UVCR_Syalom_Intern/assets/119131618/3dd692bc-6776-4bd4-a27b-d5b47e7ea4f4)
+
+Checklist Data Tugas
+![list 7](https://github.com/syalomkrist/UVCR_Syalom_Intern/assets/119131618/5f41413a-84d8-477f-aa14-7556a19279b4)
+
+Hapus Semua Data Tugas
+![list 8](https://github.com/syalomkrist/UVCR_Syalom_Intern/assets/119131618/bdc2e8e5-5ecb-4c25-b3a1-e810437838ca)
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
